@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2A</title>
+</head>
+<body>
+    <h1>Logica computacinal</h1>
+    <button onclick="Foltran()">Clique em mim!</button>
+</body>
+</html>
+<script>
+    function Foltran(){
+        let nome = prompt("digite seu nome!");
+        let idade = prompt("bem vindo, "+nome+", qual seu idade?");
+        let ano = (2024)
+        let nasceu = ano-idade
+        
+        if(idade > 17){
+            alert(nome+", Você possui "+idade+" ano, portanto é maior de idade!");
+            
+        }
+        else{
+            alert(nome+", você possui "+idade+" anos, portanto é menor de idade!");
+        }
+        alert("Se você tem "+idade+" você naseu em "+nasceu)
+    }
+</script>
